@@ -1,9 +1,10 @@
 ﻿program CreateAndWriteToFile;
 var
   myFile: Text;
-  i, randomNumber: integer;
+  i, randomNumber,a: integer;
 
 begin
+  a := 0
   Assign(myFile, 'myFile.txt');
   Rewrite(myFile);
 
